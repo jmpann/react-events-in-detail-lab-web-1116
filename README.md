@@ -1,8 +1,9 @@
+
 # React Events in Detail
 
 ## Overview
 
-In this lab, you'll work with event data and persisting events. 
+In this lab, you'll work with event data and persisting events.
 
 ## Two Buttons To Rule Them All
 ![Using buttons](https://media.giphy.com/media/HraQGUYyPxDz2/giphy.gif)
@@ -11,7 +12,7 @@ In this lab, you'll be working on two components — two buttons, to be more pre
 
 ### `CoordinatesButton`
 1. In the `components/CoordinatesButton.js` file, create a `CoordinatesButton` React component.
-2. This component takes in one prop: `onReceiveCoordinates`. This prop is a _function). (This props is only passed in the test suite, you will have errors in the browser)
+2. This component takes in one prop: `onReceiveCoordinates`. This prop is a function). (This props is only passed in the test suite, you will have errors in the browser)
 3. When the button is clicked, create an array with two elements: the X and Y coordinates of the mouse. Find these using the event data.
 4. The `onReceiveCoordinates` callback prop is then called with these coordinates.
 
